@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_view_item"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/cardview_default_elevation" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/circle_indicator"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:hideAnimationBehavior="inward"
+        app:trackColor="@android:color/tertiary_text_light"
+        app:trackCornerRadius="2dp"
+        app:trackThickness="4dp" />
+</RelativeLayout>

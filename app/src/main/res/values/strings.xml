@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Images List</string>
+
+    <string-array name="category">
+        <item name="Dogs">dog</item>
+        <item name="Cats">cat</item>
+        <item name="Fish">fish</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

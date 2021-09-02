@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/set_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/set_wallpaper_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        android:text="Set as wallpaper" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/indicator_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:visibility="invisible"
+        app:trackColor="@android:color/transparent"
+        app:trackThickness="4dp"
+        app:trackCornerRadius="2dp"
+        app:minHideDelay="500"
+        app:hideAnimationBehavior="inward"
+        />
+
+</FrameLayout>
